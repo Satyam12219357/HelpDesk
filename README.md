@@ -1,73 +1,84 @@
-# Welcome to your Lovable project
+# HelpDesk – Professional Ticket Management System
 
-## Project info
+## 📌 Project Info
 
-**URL**: https://lovable.dev/projects/326c0782-2f1a-4aba-a777-5981fdb490ab
+**Repository**: [HelpDesk on GitHub](https://github.com/Satyam12219357/HelpDesk)
 
-## How can I edit this code?
+HelpDesk is a modern **ticket triage and support management system** built with React, TypeScript, Tailwind CSS, and ShadCN UI. It provides features like **role-based access**, **SLA tracking**, and **team collaboration** to streamline customer support operations.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🚀 Getting Started
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/326c0782-2f1a-4aba-a777-5981fdb490ab) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+### 1. Clone the Repository
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone https://github.com/Satyam12219357/HelpDesk.git
+cd HelpDesk
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 2. Install Dependencies
 
-# Step 3: Install the necessary dependencies.
-npm i
+```sh
+npm install
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 3. Start the Development Server
+
+```sh
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Your app will be running at:
+👉 `http://localhost:5173` (default Vite port)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## ⚙️ Technologies Used
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+* ⚡ **Vite** – Fast build tool
+* ⚛️ **React + TypeScript** – Component-based development
+* 🎨 **Tailwind CSS** – Utility-first styling
+* 🧩 **ShadCN UI** – Prebuilt accessible UI components
+* 🔒 **Lucide Icons** – Modern icon set
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 🌟 Key Features
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+* **Role-Based Access** → Secure separation between Admin, Agent, and User
+* **SLA Tracking** → Automatic monitoring of ticket response deadlines
+* **Team Collaboration** → Comments, ticket assignment, and progress tracking
+* **Modern UI/UX** → Responsive design with animations via Framer Motion
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/326c0782-2f1a-4aba-a777-5981fdb490ab) and click on Share -> Publish.
+## 🌍 Deployment
 
-## Can I connect a custom domain to my Lovable project?
+You can deploy this project easily using:
 
-Yes, you can!
+* **Vercel** – Recommended for React + Vite
+* **Netlify** – Quick setup and free tier
+* **GitHub Pages** – Simple hosting for static builds
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Build the project before deployment:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+```sh
+npm run build
+```
+
+---
+
+## 🔗 Contribution
+
+1. Fork the repo
+2. Create a new branch (`feature/xyz`)
+3. Commit your changes
+4. Push and open a Pull Request
+
+---
+
+## 📧 Author
+
+**Satyam Kumar**
+[GitHub Profile](https://github.com/Satyam12219357)
